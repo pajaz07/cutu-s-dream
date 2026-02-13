@@ -85,7 +85,8 @@ const Index = () => {
           <h1 className="font-elegant text-5xl sm:text-6xl md:text-7xl text-valentine-maroon mb-8 drop-shadow-sm">
             Bubu & Cutu
           </h1>
-          <Polaroid date="21st October 2023" tilt={-2} />
+          <Polaroid imageSrc="/pic1.jpg" date="21st October 2023" />
+          
           <p className="font-handwritten text-valentine-maroon/70 text-lg mt-4">Where it all started...</p>
           <ScrollButton text="The journey begins…" targetId="section-2024" containerRef={scrollRef} />
         </Section>
